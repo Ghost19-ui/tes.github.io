@@ -1,688 +1,675 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https:\/\/i.ibb.co\/JmDRPKb\/Lampo-rusty-collection-Letter-T-decorative-luxury-marquee-LED-lighting-lamp-1024x1024.jpg" rel="icon">
-    <title>Tessy-API</title>
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" type="text/css">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/ruang-admin.min.css" rel="stylesheet">
-</head>
-
-<body id="page-top">
-  <div id="wrapper">
-        <!-- Sidebar -->
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link href="img/logo/logo2.jpg" rel="shortcut icon" type="image/jpg">
+      <title>Tessy-API</title>
+      <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" type="text/css">
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="css/ruang-admin.min.css" rel="stylesheet">
+   </head>
+   <body id="page-top">
+      <div id="wrapper">
+         <!-- Sidebar -->
          <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
-        <div class="sidebar-brand-icon">
-          <i class="lab la-accusoft fa-2x"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">Tessy-API</div>
-      </a>
-      <hr class="sidebar-divider my-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
-      </li>
-            <hr class="sidebar-divider">
-            <div class="sidebar-heading">
-               API Features
-            </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="download/">
-                    <i class="fas fa-fw las la-download"></i>
-                    <span>Downloader API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="islamic/">
-                    <i class="fas fa-fw las la-mosque"></i>
-                    <span>Islamic API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="images/">
-                    <i class="fas fa-fw las la-images"></i>
-                    <span>Images API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="edu/">
-                    <i class="fas fa-fw las la-school"></i>
-                    <span>Education API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="random/">
-                    <i class="fas fa-fw las la-atom"></i>
-                    <span>Random API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="photooxy/">
-                    <i class="fas fa-fw las la-image"></i>
-                    <span>Photooxy API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="textpro/">
-                    <i class="fas fa-fw las la-image"></i>
-                    <span>Textpro.me API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="ephoto360/">
-                    <i class="fas fa-fw las la-image"></i>
-                    <span>Ephoto360 API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="canvas/">
-                    <i class="fas fa-fw las la-marker"></i>
-                    <span>Canvas API</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="searching/">
-                    <i class="fas fa-fw las la-search"></i>
-                    <span>Searching API</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="anime/">
-                    <i class="fas fa-fw las la-paw"></i>
-                    <span>Anime & Manga API</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="games/">
-                    <i class="fas fa-fw las la-gamepad"></i>
-                    <span>Fun Game API</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="others/">
-                    <i class="fas fa-fw las la-plus"></i>
-                    <span>Others API</span>
-                </a>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+               <div class="sidebar-brand-icon">
+                  <i class="lab la-accusoft fa-2x"></i>
+               </div>
+               <div class="sidebar-brand-text mx-3">Tessy-API</div>
+            </a>
+            <hr class="sidebar-divider my-0">
+            <li class="nav-item active">
+               <a class="nav-link" href="api/">
+                  <i class="fas fa-fw fa-tachometer-alt"></i>
+                  <span>Dashboard</span>
+               </a>
             </li>
             <hr class="sidebar-divider">
-            <div class="sidebar-heading">
-                my Sosmed & Game Online
-            </div>
-                  <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePage" aria-expanded="true"
-          aria-controls="collapsePage">
-          <i class="fas fa-fw las la-gamepad"></i>
-          <span>Games Fun</span>
-        </a>
-        <div id="collapsePage" class="collapse" aria-labelledby="headingPage" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">List games</h6>
-            <a class="collapse-item" href="pingpong/">Ping-Pong</a>
-            <a class="collapse-item" href="tebakwarna/">Tebak Warna</a>
-            <a class="collapse-item" href="asahotak/">Asah Otak</a>
-            <a class="collapse-item" href="catur/">Catur</a>
-          </div>
-        </div>
-      </li>
+            <div class="sidebar-heading"> API Features </div>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/ghost19-ui">
-                    <i class="fab fa-fw fa-github"></i>
-                    <span>My Github</span>
-                </a>
+               <a class="nav-link" href="download/">
+                  <i class="fas fa-fw las la-download"></i>
+                  <span>Downloader API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="islamic/">
+                  <i class="fas fa-fw las la-mosque"></i>
+                  <span>Islamic API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="images/">
+                  <i class="fas fa-fw las la-images"></i>
+                  <span>Images API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="edu/">
+                  <i class="fas fa-fw las la-school"></i>
+                  <span>Education API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="random/">
+                  <i class="fas fa-fw las la-atom"></i>
+                  <span>Random API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="photooxy/">
+                  <i class="fas fa-fw las la-image"></i>
+                  <span>Photooxy API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="textpro/">
+                  <i class="fas fa-fw las la-image"></i>
+                  <span>Textpro.me API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="ephoto360/">
+                  <i class="fas fa-fw las la-image"></i>
+                  <span>Ephoto360 API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="canvas/">
+                  <i class="fas fa-fw las la-marker"></i>
+                  <span>Canvas API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="searching/">
+                  <i class="fas fa-fw las la-search"></i>
+                  <span>Searching API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="anime/">
+                  <i class="fas fa-fw las la-paw"></i>
+                  <span>Anime & Manga API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="games/">
+                  <i class="fas fa-fw las la-gamepad"></i>
+                  <span>Fun Game API</span>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="others/">
+                  <i class="fas fa-fw las la-plus"></i>
+                  <span>Others API</span>
+               </a>
             </li>
             <hr class="sidebar-divider">
-            <div class="version"><b>Made With ♥️ By Tessy</b></div>
-        </ul>
-        <!-- Sidebar -->
-        <div id="content-wrapper" class="d-flex flex-column">
-            <div id="content">
-                <!-- TopBar -->
-                <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top">
-                    <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
-          </button>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bell fa-fw"></i>
-                                <span class="badge badge-danger badge-counter">2</span>
-                            </a>
-                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
-                                <h6 class="dropdown-header">
-                                    Alert
-                                </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-success">
-                                            <i class="fa fa-envelope text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">25 agustus 2021</div>
-                                        <span class="font-weight-bold">The birth of this rest API</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-success">
-                                            <i class="fa fa-envelope text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">Read this verse every day</div>الَّلهُمَّ جَئَلْنِى نُوْرُ يُوْسُفَ عَلَى وَجْهِي فَمَنْ رَ اَنِى يُحِبُّنِي مَحَبَّتَنْي
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-success">
-                                            <i class="fas fa-exclamation-triangle text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">25 Agustus 2021</div>
-                                        This rest API does not require an api key
-                                    </div>
-                                </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">There are no recent messages</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="img-profile rounded-circle" src="https:\/\/i.ibb.co\/JmDRPKb\/Lampo-rusty-collection-Letter-T-decorative-luxury-marquee-LED-lighting-lamp-1024x1024.jpg" style="max-width: 60px">
-                                <span class="ml-2 d-none d-lg-inline text-white small">Tessy-API</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- Topbar -->
-
-                <!-- Container Fluid-->
-                <div class="container-fluid" id="container-wrapper">
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="./">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-                        </ol>
-                    </div>
-
-                    
-                    <div class="row mb-3">
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="row align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Your IP Address</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                <div class="ip" id="ip">00</div>
-                                            </div>
-                                            <div class="mt-2 mb-0 text-muted text-xs">
-                                                <span>Your IP</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-signal fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Earnings (Annual) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Time Now</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                <div id="jam" class="" onload="showTime()">
-                                                </div>
-                                            </div>
-                                            <div class="mt-2 mb-0 text-muted text-xs">
-                                                <span><div id="ucapan" class="" onload="show()"></div></span>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas las la-clock fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- New User Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Road to the Islamic New Year 2022</div>
-                                            <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
-                                                <div id="newyear"></div>
-                                            </div>
-                                            <div class="mt-2 mb-0 text-muted text-xs">
-                                                <span>countdown to Islamic New Year 2022</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas las la-calendar-alt fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Pending Requests Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Date</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                <div id="date" class="" onload="date()">
-                                                </div>
-                                            </div>
-                                            <div class="mt-2 mb-0 text-muted text-xs">
-                                                <span>Date Now</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas las la-calendar-check fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="alert alert-light" role="alert">
-                            <script>
-                                (function () {
-                                    'use strict';
-                                    
-                                    var module = {
-                                        options: [],
-                                        header: [navigator.platform, navigator.userAgent, navigator.appVersion, navigator.vendor, window.opera],
-                                        dataos: [
-                                            { name: 'Windows Phone', value: 'Windows Phone', version: 'OS' },
-                                            { name: 'Windows', value: 'Win', version: 'NT' },
-                                            { name: 'iPhone', value: 'iPhone', version: 'OS' },
-                                            { name: 'iPad', value: 'iPad', version: 'OS' },
-                                            { name: 'Kindle', value: 'Silk', version: 'Silk' },
-                                            { name: 'Android', value: 'Android', version: 'Android' },
-                                            { name: 'PlayBook', value: 'PlayBook', version: 'OS' },
-                                            { name: 'BlackBerry', value: 'BlackBerry', version: '/' },
-                                            { name: 'Macintosh', value: 'Mac', version: 'OS X' },
-                                            { name: 'Linux', value: 'Linux', version: 'rv' },
-                                            { name: 'Palm', value: 'Palm', version: 'PalmOS' }
-                                        ],
-                                        databrowser: [
-                                            { name: 'Chrome', value: 'Chrome', version: 'Chrome' },
-                                            { name: 'Firefox', value: 'Firefox', version: 'Firefox' },
-                                            { name: 'Safari', value: 'Safari', version: 'Version' },
-                                            { name: 'Internet Explorer', value: 'MSIE', version: 'MSIE' },
-                                            { name: 'Opera', value: 'Opera', version: 'Opera' },
-                                            { name: 'BlackBerry', value: 'CLDC', version: 'CLDC' },
-                                            { name: 'Mozilla', value: 'Mozilla', version: 'Mozilla' }
-                                        ],
-                                        init: function () {
-                                            var agent = this.header.join(' '),
-                                                os = this.matchItem(agent, this.dataos),
-                                                browser = this.matchItem(agent, this.databrowser);
-                                            
-                                            return { os: os, browser: browser };
-                                        },
-                                        matchItem: function (string, data) {
-                                            var i = 0,
-                                                j = 0,
-                                                html = '',
-                                                regex,
-                                                regexv,
-                                                match,
-                                                matches,
-                                                version;
-                                            
-                                            for (i = 0; i < data.length; i += 1) {
-                                                regex = new RegExp(data[i].value, 'i');
-                                                match = regex.test(string);
-                                                if (match) {
-                                                    regexv = new RegExp(data[i].version + '[- /:;]([\\d._]+)', 'i');
-                                                    matches = string.match(regexv);
-                                                    version = '';
-                                                    if (matches) { if (matches[1]) { matches = matches[1]; } }
-                                                    if (matches) {
-                                                        matches = matches.split(/[._]+/);
-                                                        for (j = 0; j < matches.length; j += 1) {
-                                                            if (j === 0) {
-                                                                version += matches[j] + '.';
-                                                            } else {
-                                                                version += matches[j];
-                                                            }
-                                                        }
-                                                    } else {
-                                                        version = '0';
-                                                    }
-                                                    return {
-                                                        name: data[i].name,
-                                                        version: parseFloat(version)
-                                                    };
-                                                }
-                                            }
-                                            return { name: 'unknown', version: 0 };
-                                        }
-                                    };
-                                    
-                                    var e = module.init(),
-                                        debug = '';
-                                    
-                                    debug += '<p><b>os name</b>: ' + e.os.name + '</p>';
-                                    debug += '<p><b>os version</b>: ' + e.os.version + '</p>';
-                                    debug += '<p><b>browser name</b>: ' + e.browser.name + '</p>';
-                                    debug += '<p><b>browser version</b>: ' + e.browser.version + '</p>';
-                                    debug += '<p><b>Browser Online</b>: ' + navigator.onLine + '</p>';
-                                    debug += '<p><b>Your screen resolution</b>: ' + window.screen.width * window.devicePixelRatio + "px X " + window.screen.height * window.devicePixelRatio + 'px </p>';
-                                    debug += '<p><b>navigator userAgent</b>: ' + navigator.userAgent + '</p>';
-                                    debug += '<p><b>navigator appVersion</b>: ' + navigator.appVersion + '</p>';
-                                    debug += '<p><b>navigator platform</b>: ' + navigator.platform + '</p>';
-                                    debug += '<p><b>navigator vendor</b>: ' + navigator.vendor + '</p>';
-                                    
-                                    document.write(debug);
-                                }());
-                            </script>
-                        </div>
-                        
-                        
-                        
-                        
-                        
-                        
-                        </tbody>
-                        </table>
-                    </div>
-                    <div class="card-footer"></div>
-                </div>
-            </div>
-          <!--<div id="row">
-           <!-- Bar Chart
-            <div class="col-lg-8">
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Bar Status</h6>
-                </div>
-                <div class="card-body">
-                  <div class="chart-bar">
-                    <canvas id="myBarChart"></canvas>
+            <div class="sidebar-heading"> my Sosmed & Game Online </div>
+            <li class="nav-item">
+               <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePage" aria-expanded="true" aria-controls="collapsePage">
+                  <i class="fas fa-fw las la-gamepad"></i>
+                  <span>Games Fun</span>
+               </a>
+               <div id="collapsePage" class="collapse" aria-labelledby="headingPage" data-parent="#accordionSidebar">
+                  <div class="bg-white py-2 collapse-inner rounded">
+                     <h6 class="collapse-header">List games</h6>
+                     <a class="collapse-item" href="pingpong/">Ping-Pong</a>
+                     <a class="collapse-item" href="tebakwarna/">Tebak Warna</a>
+                     <a class="collapse-item" href="asahotak/">Asah Otak</a>
+                     <a class="collapse-item" href="catur/">Catur</a>
                   </div>
-                  <hr>
-                  <code>Buat Ngelengkapin Doang bang</code>
-                </div>
-              </div>
+               </div>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="https://github.com/ghost19-ui">
+                  <i class="fab fa-fw fa-github"></i>
+                  <span>My Github</span>
+               </a>
+            </li>
+            <hr class="sidebar-divider">
+            <div class="version">
+               <b>Made With ♥️ By Tessy</b>
             </div>
-         
-          </div><!-- Row -->
-                    <!-- Documentation Link -->
-          <div class="row">
-            <div class="col-lg-12">
-              <p class="mb-4">Rest API ini di Buat Untuk memudahkan para creator Bot Mengembangkan Bot mereka.
-              Boleh dong Follow <a
-                  target="_blank" href="https://github.com/ghost19-ui"> Github</a> Saya, Terima kasih :)</p>
-            </div>
-          </div>
-<!--
-                        </tbody>
-                        </table>
-                    </div>
-                    <div class="card-footer"></div>
-                </div>
-            </div>
+         </ul>
+         <!-- Sidebar -->
+         <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+               <!-- TopBar -->
+               <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top">
+                  <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+                     <i class="fa fa-bars"></i>
+                  </button>
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item dropdown no-arrow mx-1">
+                        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="fas fa-bell fa-fw"></i>
+                           <span class="badge badge-danger badge-counter">2</span>
+                        </a>
+                        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                           <h6 class="dropdown-header"> Alert </h6>
+                           <a class="dropdown-item d-flex align-items-center" href="#">
+                              <div class="mr-3">
+                                 <div class="icon-circle bg-success">
+                                    <i class="fa fa-envelope text-white"></i>
+                                 </div>
+                              </div>
+                              <div>
+                                 <div class="small text-gray-500">25 agustus 2021</div>
+                                 <span class="font-weight-bold">The birth of this rest API</span>
+                              </div>
+                           </a>
+                           <a class="dropdown-item d-flex align-items-center" href="#">
+                              <div class="mr-3">
+                                 <div class="icon-circle bg-success">
+                                    <i class="fa fa-envelope text-white"></i>
+                                 </div>
+                              </div>
+                              <div>
+                                 <div class="small text-gray-500">Read this verse every day</div>الَّلهُمَّ جَئَلْنِى نُوْرُ يُوْسُفَ عَلَى وَجْهِي فَمَنْ رَ اَنِى يُحِبُّنِي مَحَبَّتَنْي
+                              </div>
+                           </a>
+                           <a class="dropdown-item d-flex align-items-center" href="#">
+                              <div class="mr-3">
+                                 <div class="icon-circle bg-success">
+                                    <i class="fas fa-exclamation-triangle text-white"></i>
+                                 </div>
+                              </div>
+                              <div>
+                                 <div class="small text-gray-500">25 Agustus 2021</div> This rest API does not require an api key
+                              </div>
+                           </a>
+                           <a class="dropdown-item text-center small text-gray-500" href="#">There are no recent messages</a>
+                        </div>
+                     </li>
+                     <li class="nav-item dropdown no-arrow">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img class="img-profile rounded-circle" src="https:\/\/i.ibb.co\/JmDRPKb\/Lampo-rusty-collection-Letter-T-decorative-luxury-marquee-LED-lighting-lamp-1024x1024.jpg" style="max-width: 60px">
+                           <span class="ml-2 d-none d-lg-inline text-white small">Tessy-API</span>
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+               <!-- Topbar -->
+               <!-- Container Fluid-->
+               <div class="container-fluid" id="container-wrapper">
+                  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                     <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                     <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                           <a href="./">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                     </ol>
+                  </div>
+                  <div class="row mb-3">
+                     <!-- Earnings (Monthly) Card Example -->
+                     <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card h-100">
+                           <div class="card-body">
+                              <div class="row align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Your IP Address</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                       <div class="ip" id="ip">00</div>
+                                    </div>
+                                    <div class="mt-2 mb-0 text-muted text-xs">
+                                       <span>Your IP</span>
+                                    </div>
+                                 </div>
+                                 <div class="col-auto">
+                                    <i class="fas fa-signal fa-2x text-primary"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Earnings (Annual) Card Example -->
+                     <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card h-100">
+                           <div class="card-body">
+                              <div class="row no-gutters align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Time Now</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                       <div id="jam" class="" onload="showTime()"></div>
+                                    </div>
+                                    <div class="mt-2 mb-0 text-muted text-xs">
+                                       <span>
+                                          <div id="ucapan" class="" onload="show()"></div>
+                                       </span>
+                                    </div>
+                                 </div>
+                                 <div class="col-auto">
+                                    <i class="fas las la-clock fa-2x text-primary"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- New User Card Example -->
+                     <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card h-100">
+                           <div class="card-body">
+                              <div class="row no-gutters align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Road to the Islamic New Year 2022</div>
+                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
+                                       <div id="newyear"></div>
+                                    </div>
+                                    <div class="mt-2 mb-0 text-muted text-xs">
+                                       <span>countdown to Islamic New Year 2022</span>
+                                    </div>
+                                 </div>
+                                 <div class="col-auto">
+                                    <i class="fas las la-calendar-alt fa-2x text-primary"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Pending Requests Card Example -->
+                     <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card h-100">
+                           <div class="card-body">
+                              <div class="row no-gutters align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Date</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                       <div id="date" class="" onload="date()"></div>
+                                    </div>
+                                    <div class="mt-2 mb-0 text-muted text-xs">
+                                       <span>Date Now</span>
+                                    </div>
+                                 </div>
+                                 <div class="col-auto">
+                                    <i class="fas las la-calendar-check fa-2x text-primary"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="alert alert-light" role="alert">
+                        <script>
+                           (function() {
+                              'use strict';
+                              var module = {
+                                 options: [],
+                                 header: [navigator.platform, navigator.userAgent, navigator.appVersion, navigator.vendor, window.opera],
+                                 dataos: [{
+                                    name: 'Windows Phone',
+                                    value: 'Windows Phone',
+                                    version: 'OS'
+                                 }, {
+                                    name: 'Windows',
+                                    value: 'Win',
+                                    version: 'NT'
+                                 }, {
+                                    name: 'iPhone',
+                                    value: 'iPhone',
+                                    version: 'OS'
+                                 }, {
+                                    name: 'iPad',
+                                    value: 'iPad',
+                                    version: 'OS'
+                                 }, {
+                                    name: 'Kindle',
+                                    value: 'Silk',
+                                    version: 'Silk'
+                                 }, {
+                                    name: 'Android',
+                                    value: 'Android',
+                                    version: 'Android'
+                                 }, {
+                                    name: 'PlayBook',
+                                    value: 'PlayBook',
+                                    version: 'OS'
+                                 }, {
+                                    name: 'BlackBerry',
+                                    value: 'BlackBerry',
+                                    version: '/'
+                                 }, {
+                                    name: 'Macintosh',
+                                    value: 'Mac',
+                                    version: 'OS X'
+                                 }, {
+                                    name: 'Linux',
+                                    value: 'Linux',
+                                    version: 'rv'
+                                 }, {
+                                    name: 'Palm',
+                                    value: 'Palm',
+                                    version: 'PalmOS'
+                                 }],
+                                 databrowser: [{
+                                    name: 'Chrome',
+                                    value: 'Chrome',
+                                    version: 'Chrome'
+                                 }, {
+                                    name: 'Firefox',
+                                    value: 'Firefox',
+                                    version: 'Firefox'
+                                 }, {
+                                    name: 'Safari',
+                                    value: 'Safari',
+                                    version: 'Version'
+                                 }, {
+                                    name: 'Internet Explorer',
+                                    value: 'MSIE',
+                                    version: 'MSIE'
+                                 }, {
+                                    name: 'Opera',
+                                    value: 'Opera',
+                                    version: 'Opera'
+                                 }, {
+                                    name: 'BlackBerry',
+                                    value: 'CLDC',
+                                    version: 'CLDC'
+                                 }, {
+                                    name: 'Mozilla',
+                                    value: 'Mozilla',
+                                    version: 'Mozilla'
+                                 }],
+                                 init: function() {
+                                    var agent = this.header.join(' '),
+                                       os = this.matchItem(agent, this.dataos),
+                                       browser = this.matchItem(agent, this.databrowser);
+                                    return {
+                                       os: os,
+                                       browser: browser
+                                    };
+                                 },
+                                 matchItem: function(string, data) {
+                                    var i = 0,
+                                       j = 0,
+                                       html = '',
+                                       regex,
+                                       regexv,
+                                       match,
+                                       matches,
+                                       version;
+                                    for (i = 0; i < data.length; i += 1) {
+                                       regex = new RegExp(data[i].value, 'i');
+                                       match = regex.test(string);
+                                       if (match) {
+                                          regexv = new RegExp(data[i].version + '[- /:;]([\\d._]+)', 'i');
+                                          matches = string.match(regexv);
+                                          version = '';
+                                          if (matches) {
+                                             if (matches[1]) {
+                                                matches = matches[1];
+                                             }
+                                          }
+                                          if (matches) {
+                                             matches = matches.split(/[._]+/);
+                                             for (j = 0; j < matches.length; j += 1) {
+                                                if (j === 0) {
+                                                   version += matches[j] + '.';
+                                                } else {
+                                                   version += matches[j];
+                                                }
+                                             }
+                                          } else {
+                                             version = '0';
+                                          }
+                                          return {
+                                             name: data[i].name,
+                                             version: parseFloat(version)
+                                          };
+                                       }
+                                    }
+                                    return {
+                                       name: 'unknown',
+                                       version: 0
+                                    };
+                                 }
+                              };
+                              var e = module.init(),
+                                 debug = '';
+                              debug += '<p><b>os name</b>: ' + e.os.name + '</p>';
+                              debug += '<p><b>os version</b>: ' + e.os.version + '</p>';
+                              debug += '<p><b>browser name</b>: ' + e.browser.name + '</p>';
+                              debug += '<p><b>browser version</b>: ' + e.browser.version + '</p>';
+                              debug += '<p><b>Browser Online</b>: ' + navigator.onLine + '</p>';
+                              debug += '<p><b>Your screen resolution</b>: ' + window.screen.width * window.devicePixelRatio + "px X " + window.screen.height * window.devicePixelRatio + 'px </p>';
+                              debug += '<p><b>navigator userAgent</b>: ' + navigator.userAgent + '</p>';
+                              debug += '<p><b>navigator appVersion</b>: ' + navigator.appVersion + '</p>';
+                              debug += '<p><b>navigator platform</b>: ' + navigator.platform + '</p>';
+                              debug += '<p><b>navigator vendor</b>: ' + navigator.vendor + '</p>';
+                              document.write(debug);
+                           }());
+                        </script>
+                     </div>
+                           <div class="col-lg-6">
+                            <!-- Additional Content -->
+                            <div class="card mb-4">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Syarat & Ketentuan</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="alert alert-success" role="alert">
+                                        <h4 class="alert-heading">-</h4>
+                                        <p>
+Admin dapat sewaktu waktu mengubah ketentuan di website ini, demi menjaga kualitas website.
+                                        </p>
+                                        <hr>
+                                        <p class="mb-0">
+                                            Segera lapor apabila ada menu yang tidak berfungsi dengan baik!.
+                                        </p>
+                                        <hr>
+                                        <p class="mb-0">
+Admin tidak bertanggung jawab atas apa yang Anda lakukan dalam penggunaan website ini.
+                                        </p>       
+                                        <hr>
+                                        <p class="mb-0">
+Jika ingin request menu atau berdonasi kalian bisa langsung hubungi kami.
+                                        </p>                                               </div>
+                                </div>
+                            </div>
+                     <!-- Additional Content -->
+                           </div>
+                     <!-- Documentation Link -->
+                     <div class="row">
+                        <div class="col-lg-12">
+                           <p class="mb-4">This website is for me to learn to make api, scraping, learn the language of the java script program ^_^
+. Error/Bug? Report to<a target="_blank" href="https://wa.me/6282331033919?text=assalamu'alaikum+bang"> Me</a> terima kasih :)</p>
+                        </div>
+                     </div>
+                     <!--
+                        </tbody></table></div><div class="card-footer"></div></div></div>
 -->
-        </div>
-        <!---Container Fluid-->
-    </div>
-    <!-- Footer -->
-    <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-                <span>copyright &copy; <script> document.write(new Date().getFullYear()); </script> - developed by
-              <b><a href="https/github.com/ghost19-ui" target="_blank">ghost19-ui</a></b>
-            </span>
+                  </div>
+                  <!---Container Fluid-->
+               </div>
+               <!-- Footer -->
+               <footer class="sticky-footer bg-white">
+                  <div class="container my-auto">
+                     <div class="copyright text-center my-auto">
+                        <span>copyright &copy; <script>
+                              document.write(new Date().getFullYear());
+                           </script> - developed by <b>
+                              <a href="https/github.com/ghost19-ui" target="_blank">ghost19-ui</a>
+                           </b>
+                        </span>
+                     </div>
+                  </div>
+               </footer>
+               <!-- Footer -->
             </div>
-        </div>
-    </footer>
-    <!-- Footer -->
-    </div>
-    </div>
+         </div>
+         <!-- Scroll to top -->
+         <a class="scroll-to-top rounded" href="#page-top">
+            <i class="las la-angle-double-up"></i>
+         </a>
+         <script src="vendor/jquery/jquery.min.js"></script>
+         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+         <script src="js/ruang-admin.min.js"></script>
+         <script src="css/javascript.js"></script>
+         <script src="vendor/chart.js/Chart.min.js"></script>
+         <script src="js/demo/chart-area-demo.js"></script>
+         <script src="js/demo/chart-pie-demo.js"></script>
+         <script src="js/demo/chart-bar-demo.js"></script>
+         <audio autoplay loop>
+            <source src="https://c.top4top.io/m_2088yr4hp1.mp3" type="audio/mpeg">
+         </audio>
+   </body>
+   <!-- Get User IP -->
+   <script>
+      /**
+       * Get the user IP throught the webkitRTCPeerConnection
+       * @param onNewIP {Function} listener function to expose the IP locally
+       * @return undefined
+       */
+      function getUserIP(onNewIP) { //  onNewIp - your listener function for new IPs
+         //compatibility for firefox and chrome
+         var myPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;
+         var pc = new myPeerConnection({
+               iceServers: []
+            }),
+            noop = function() {},
+            localIPs = {},
+            ipRegex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/g,
+            key;
 
-    <!-- Scroll to top -->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="las la-angle-double-up"></i>
-    </a>
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="js/ruang-admin.min.js"></script>
-    <script src="css/javascript.js"></script>
-    <script src="vendor/chart.js/Chart.min.js"></script>
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
-    <script src="js/demo/chart-bar-demo.js"></script>
-</body>
-
-<!-- Get User IP -->
-<script>
-    /**
-     * Get the user IP throught the webkitRTCPeerConnection
-     * @param onNewIP {Function} listener function to expose the IP locally
-     * @return undefined
-     */
-    function getUserIP(onNewIP) { //  onNewIp - your listener function for new IPs
-        //compatibility for firefox and chrome
-        var myPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;
-        var pc = new myPeerConnection({
-            iceServers: []
-        }),
-        noop = function() {},
-        localIPs = {},
-        ipRegex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/g,
-        key;
-    
-        function iterateIP(ip) {
+         function iterateIP(ip) {
             if (!localIPs[ip]) onNewIP(ip);
             localIPs[ip] = true;
-        }
-    
+         }
          //create a bogus data channel
-        pc.createDataChannel("");
-    
-        // create offer and set local description
-        pc.createOffer(function(sdp) {
+         pc.createDataChannel("");
+         // create offer and set local description
+         pc.createOffer(function(sdp) {
             sdp.sdp.split('\n').forEach(function(line) {
-                if (line.indexOf('candidate') < 0) return;
-                line.match(ipRegex).forEach(iterateIP);
+               if (line.indexOf('candidate') < 0) return;
+               line.match(ipRegex).forEach(iterateIP);
             });
-            
             pc.setLocalDescription(sdp, noop, noop);
-        }, noop); 
-    
-        //listen for candidate events
-        pc.onicecandidate = function(ice) {
+         }, noop);
+         //listen for candidate events
+         pc.onicecandidate = function(ice) {
             if (!ice || !ice.candidate || !ice.candidate.candidate || !ice.candidate.candidate.match(ipRegex)) return;
             ice.candidate.candidate.match(ipRegex).forEach(iterateIP);
-        };
-    }
-    
-    // Usage
-    
-    getUserIP(function(ip){
-    document.getElementById("ip").innerHTML = ip;
-    });
-</script>
-
-<!-- Date Now -->
-<script>
-    function date() {
-        var myDate = new Date();
-    let daysList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    let monthsList = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    
-    let date = myDate.getDate();
-    let month = monthsList[myDate.getMonth()];
-    let year = myDate.getFullYear();
-    let day = daysList[myDate.getDay()];
-    
-    let today = date + " - " + month + " - " + year + " , " + day;
-        document.getElementById("date").innerText = today;
-        document.getElementById("date").textContent = today;
-    
-    setTimeout(date, 1000);
-    }
-    date()
-</script>
-
-<!-- Get Visitor -->
-<script>
-    function getvisitor(){
-                  var xhr = new XMLHttpRequest();
-                  var url = 'https://api.countapi.xyz/hit/tessy-api.herokuapp.com/visits';
-                  xhr.onloadend = function(){
-                 data = JSON.parse(this.responseText);
-      document.getElementById("visitor").textContent = data.value
-                  };
-                  xhr.open("GET", url, true);
-                  xhr.send();
+         };
       }
-</script>
-
-<!-- Time Now -->
-<script>
-    function showTime(){
-        var date = new Date();
-        var h = date.getHours(); 
-        var m = date.getMinutes(); 
-        var s = date.getSeconds(); 
-        var session = "morning kak :)";
-        
-       if (h >= '03' && h <= '10') {
-    session = 'Morning kak :)'
-    } else if (h >= '10' && h <= '13') {
-    session = 'Siang kak :)'
-    } else if (h >= '13' && h <= '17') {
-    session = 'Sore kak :)'
-    } else if (h >= '17' && h <= '23') {
-    session = ' Good night baby :)'
-    } else {
-    session = 'GoodNight :)'
-    }
-        
-        h = (h < 10) ? "0" + h : h;
-        m = (m < 10) ? "0" + m : m;
-        s = (s < 10) ? "0" + s : s;
-        
-        var time = h + ":" + m + ":" + s;
-        document.getElementById("jam").innerText = time;
-        document.getElementById("jam").textContent = time;
-        
-        setTimeout(showTime, 1000);
-        
-    }
-     
-    showTime();
-</script>
-
-<!-- Say Now -->
-<script>
-    function show(){
-        var date = new Date();
-        var h = date.getHours(); 
-        var m = date.getMinutes(); 
-        var s = date.getSeconds(); 
-        var session = "morning kak :)";
-        
-       if (h >= '03' && h <= '10') {
-    session = 'Morning kak :)'
-    } else if (h >= '10' && h <= '13') {
-    session = 'Siang kak :)'
-    } else if (h >= '13' && h <= '17') {
-    session = 'Sore kak :)'
-    } else if (h >= '17' && h <= '23') {
-    session = ' Good night baby :)'
-    } else {
-    session = 'GoodNight :)'
-    }
-        
-        h = (h < 10) ? "0" + h : h;
-        m = (m < 10) ? "0" + m : m;
-        s = (s < 10) ? "0" + s : s;
-        
-        var time = h + ":" + m + ":" + s + " " + session;
-        var say = session;
-        document.getElementById("ucapan").innerText = say;
-        document.getElementById("ucapan").textContent = say;
-        
-        setTimeout(show, 1000);
-        
-    }
-     
-    show();
-</script>
-
-<!-- Islamic New Year -->
-<script>
-    var countDownDate = new Date("July 30, 2022 00:00:00").getTime();
-    
-    var x = setInterval(function() {
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
-      
-      var month = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
-      var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 30)) /(1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-      document.getElementById("newyear").innerHTML = month + "M " + days + "D " + hours + "H "
-      + minutes + "M " + seconds + "S ";
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("newyear").innerHTML = "Happy Islamic New Year 😄";
+      // Usage
+      getUserIP(function(ip) {
+         document.getElementById("ip").innerHTML = ip;
+      });
+   </script>
+   <!-- Date Now -->
+   <script>
+      function date() {
+         var myDate = new Date();
+         let daysList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+         let monthsList = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+         let date = myDate.getDate();
+         let month = monthsList[myDate.getMonth()];
+         let year = myDate.getFullYear();
+         let day = daysList[myDate.getDay()];
+         let today = date + " - " + month + " - " + year + " , " + day;
+         document.getElementById("date").innerText = today;
+         document.getElementById("date").textContent = today;
+         setTimeout(date, 1000);
       }
-    }, 1000);
-</script>
-
+      date()
+   </script>
+   <!-- Get Visitor -->
+   <script>
+      function getvisitor() {
+         var xhr = new XMLHttpRequest();
+         var url = 'https://api.countapi.xyz/hit/tessy-api.herokuapp.com/visits';
+         xhr.onloadend = function() {
+            data = JSON.parse(this.responseText);
+            document.getElementById("visitor").textContent = data.value
+         };
+         xhr.open("GET", url, true);
+         xhr.send();
+      }
+   </script>
+   <!-- Time Now -->
+   <script>
+      function showTime() {
+         var date = new Date();
+         var h = date.getHours();
+         var m = date.getMinutes();
+         var s = date.getSeconds();
+         var session = "morning kak :)";
+         if (h >= '03' && h <= '10') {
+            session = 'Morning kak :)'
+         } else if (h >= '10' && h <= '13') {
+            session = 'Siang kak :)'
+         } else if (h >= '13' && h <= '17') {
+            session = 'Sore kak :)'
+         } else if (h >= '17' && h <= '23') {
+            session = ' Good night baby :)'
+         } else {
+            session = 'GoodNight :)'
+         }
+         h = (h < 10) ? "0" + h : h;
+         m = (m < 10) ? "0" + m : m;
+         s = (s < 10) ? "0" + s : s;
+         var time = h + ":" + m + ":" + s;
+         document.getElementById("jam").innerText = time;
+         document.getElementById("jam").textContent = time;
+         setTimeout(showTime, 1000);
+      }
+      showTime();
+   </script>
+   <!-- Say Now -->
+   <script>
+      function show() {
+         var date = new Date();
+         var h = date.getHours();
+         var m = date.getMinutes();
+         var s = date.getSeconds();
+         var session = "morning kak :)";
+         if (h >= '03' && h <= '10') {
+            session = 'Morning kak :)'
+         } else if (h >= '10' && h <= '13') {
+            session = 'Siang kak :)'
+         } else if (h >= '13' && h <= '17') {
+            session = 'Sore kak :)'
+         } else if (h >= '17' && h <= '23') {
+            session = ' Good night baby :)'
+         } else {
+            session = 'GoodNight :)'
+         }
+         h = (h < 10) ? "0" + h : h;
+         m = (m < 10) ? "0" + m : m;
+         s = (s < 10) ? "0" + s : s;
+         var time = h + ":" + m + ":" + s + " " + session;
+         var say = session;
+         document.getElementById("ucapan").innerText = say;
+         document.getElementById("ucapan").textContent = say;
+         setTimeout(show, 1000);
+      }
+      show();
+   </script>
+   <!-- Islamic New Year -->
+   <script>
+      var countDownDate = new Date("July 30, 2022 00:00:00").getTime();
+      var x = setInterval(function() {
+         var now = new Date().getTime();
+         var distance = countDownDate - now;
+         var month = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
+         var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+         document.getElementById("newyear").innerHTML = month + "M " + days + "D " + hours + "H " + minutes + "M " + seconds + "S ";
+         if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("newyear").innerHTML = "Happy Islamic New Year 😄";
+         }
+      }, 1000);
+   </script>
 </html>
-
-<!--<div class="col-xl-3 col-md-6 mb-4">
-<div class="card h-100">
-<div class="card-body">
-<div class="row no-gutters align-items-center">
-<div class="col mr-2">
-<div class="text-xs font-weight-bold text-uppercase mb-1">Visitor</div>
-<div class="h5 mb-0 font-weight-bold text-gray-800">
-<div class="visitor" id="visitor">00</div>
-</div>
-<div class="mt-2 mb-0 text-muted text-xs">
-
-</span>
-<span>This web visitor</span>
-</div>
-</div>
-<div class="col-auto">
-<i class="fas fa-eye fa-2x text-primary"></i>
-</div>
-</div>
-</div>
-</div>
-</div>-->
+<!--<div class="col-xl-3 col-md-6 mb-4"><div class="card h-100"><div class="card-body"><div class="row no-gutters align-items-center"><div class="col mr-2"><div class="text-xs font-weight-bold text-uppercase mb-1">Visitor</div><div class="h5 mb-0 font-weight-bold text-gray-800"><div class="visitor" id="visitor">00</div></div><div class="mt-2 mb-0 text-muted text-xs"></span><span>This web visitor</span></div></div><div class="col-auto"><i class="fas fa-eye fa-2x text-primary"></i></div></div></div></div></div>-->
